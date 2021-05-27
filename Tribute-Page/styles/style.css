@@ -1,0 +1,53 @@
+/*Styling header of Tribute page*/
+#title 
+{
+    text-align: center;
+}
+
+/*Styling main of Tribute page*/
+#main
+{
+    background:cornflowerblue;
+    height:auto;
+    position:relative;
+}
+
+/*Styling image and its caption*/
+#img-div #image
+{
+    max-width: 100%;
+    height:auto;
+    background-size: 100% 100%;
+    background:darkgoldenrod;
+    position:relative;
+}
+
+#img-div #img-caption
+{
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+/*Styling text content of Tribute page*/
+#tribute-info h2
+{
+    max-width: 100%;
+    align-items: center;
+    color:white;
+    background-color: goldenrod;
+}
+#tribute-info .elementsOfInfo
+{
+    display:inline-block;
+    text-align:left;
+    max-width:100%;
+    color: white;
+    align-items:baseline;
+    background-color:rosybrown;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
